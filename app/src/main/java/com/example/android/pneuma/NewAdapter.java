@@ -62,6 +62,7 @@ public class NewAdapter extends BaseExpandableListAdapter {
         int imageResources = v.getContext().getResources().getIdentifier(uri, null, v.getContext().getPackageName());
         Drawable image = v.getContext().getResources().getDrawable(imageResource);
         text.setCompoundDrawables(image, null, null, null);
+        text.setAllCaps(true);
         text.setCompoundDrawablePadding(16);
         text.setText("     " + tempChild.get(childPosition));
         v.setOnClickListener(new OnClickListener() {
