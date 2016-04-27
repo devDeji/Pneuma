@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <FrameLayout
+        android:id="@+id/frm1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@drawable/logo"
+
+        android:scaleType="centerCrop"
+
+        ></FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/frm1">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <customfonts.MyTextView
+                android:id="@+id/head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Select the question below; minimum of 5 for each section."
+                android:textColor="#4c565f"
+                android:textSize="15dp"
+
+                android:textStyle="bold" />
+
+
+            <customfonts.MyTextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="46dp"
+                android:background="#0000"
+                android:drawableLeft="@drawable/pass"
+                android:drawablePadding="12dp"
+                android:editable="false"
+                android:hint="Numbers"
+                android:padding="16dp"
+                android:textColor="@color/colortext"
+                android:textColorHint="@color/colorhint"
+
+
+                android:textSize="16dp" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginRight="56dp"
+                android:background="#59d58d" />
+
+
+            <customfonts.MyTextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="46dp"
+                android:background="#0000"
+                android:drawableLeft="@drawable/pass"
+                android:drawablePadding="12dp"
+                android:hint="Algebra"
+                android:padding="16dp"
+                android:textColor="@color/colortext"
+                android:textColorHint="@color/colorhint"
+                android:textSize="16dp"
+
+
+                />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginRight="56dp"
+                android:background="#59d58d" />
+
+            <customfonts.MyTextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="46dp"
+                android:background="#0000"
+                android:drawableLeft="@drawable/pass"
+                android:drawablePadding="12dp"
+                android:hint="Geometry"
+                android:padding="16dp"
+                android:textColor="@color/colortext"
+                android:textColorHint="@color/colorhint"
+                android:textSize="16dp"
+
+
+                />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginRight="56dp"
+                android:background="#59d58d" />
+
+            <customfonts.MyTextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="46dp"
+                android:background="#0000"
+                android:drawableLeft="@drawable/pass"
+                android:drawablePadding="12dp"
+                android:hint="Calculus"
+                android:padding="16dp"
+                android:textColor="@color/colortext"
+                android:textColorHint="@color/colorhint"
+                android:textSize="16dp"
+
+
+                />
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginRight="56dp"
+                android:background="#59d58d" />
+
+
+            <customfonts.MyTextView
+
+                android:id="@+id/signin1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="11dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rect1"
+                android:elevation="3dp"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Start Exam"
+                android:textColor="#fff"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
