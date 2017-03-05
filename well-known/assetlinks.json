@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.android.pneuma",
+    "sha256_cert_fingerprints":
+    ["B5:35:AE:EB:91:E4:35:C4:BD:B0:02:6C:95:65:22:75:27:7F:3A:8B:9B:D2:16:83:FD:B1:B1:6E:C0:D7:EE:9D"]
+  }
+}]
